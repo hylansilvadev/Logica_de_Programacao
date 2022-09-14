@@ -1,0 +1,47 @@
+Universidade Católica de Pernambuco
+Curso: Sistemas para Internet
+Disciplina: Lógica de Programação
+Prof.: Robson Lins
+
+Lista 1
+
+Observações:
+• Utilizar o ambiente de desenvolvimento portugol studio para as implementações;
+• Aplicar boas práticas de programação: declaração de variáveis no início do
+programa, nomes de variáves que ajudem a compreensão do programa e inclusão de
+comentários.
+
+1) Faça um programa para receber um número inteiro qualquer e informar na tela se é par
+ou ímpar.
+
+2) Escrva um programa que leia os valores A, B, C e imprima na tela se a soma de A +
+B é menor que C.
+
+3) Faça um programa que leia dois valores inteiros A e B se os valores forem iguais
+deverá se somar os dois, caso contrário multiplique A por B. Ao final de qualquer
+um dos cálculos deve-se atribuir o resultado para uma variável C e mostrar seu
+conteúdo na tela.
+
+4) Faça um programa para encontrar o dobro de um número caso ele seja positivo e o
+seu triplo caso seja negativo, imprimindo o resultado.
+
+5) Faça um programa que leia uma variável e some 5 caso seja par ou some 8 caso
+seja ímpar. Imprimir o resultado desta operação.
+
+6) Escreva um programa que leia três valores inteiros e diferentes e mostre-os em
+ordem crescente.
+
+7) Escreva um programa que lê dois valores booleanos (lógicos) e então determina se
+ambos são VERDADEIROS ou FALSOS.
+
+8) Elabore um programa que calcule o que deve ser pago por um produto,
+considerando o preço normal de etiqueta e a escolha da condição de pagamento.
+Utilize os códigos da tabela a seguir para ler qual acondição de pagamento
+escolhida e efetuar o cálculo adequado.
+
+Código Condição de pagamento
+
+1 À vista em dinheiro ou pix, recebe 10% de desconto
+2 À vista no cartão de crédito, recebe 5% de desconto
+3 Em duas vezes, preço normal de etiqueta sem juros
+4 Em três vezes, preço normal de etiqueta mais juros de 5%
