@@ -89,6 +89,7 @@
 
 vamos dividir o código em pequenas partes e entender cada uma:
 
+
 # Tecnologias Utilizadas
  ## ✔️ Tecnologias utilizadas
 

@@ -4,13 +4,13 @@
 a = input("digite um número: ")
 b = input("digite outro número: ")
 
-if(a == b):
+while(a == b):
     print("digite um número diferente de "+str(a))
     b = input("digite outro número: ")
 
 c = input("digite um terceiro valor: ")
 
-if(b == c):
+while(b == c):
     print("digite um número diferente de "+str(b))
     c = input("digite outro número: ")
 

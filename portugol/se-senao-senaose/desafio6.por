@@ -14,14 +14,14 @@ programa
 		escreva("Digite um outro valor: ")
 		leia(b)
 
-		se(a == b){
+		enquanto(a == b){
 				escreva("digite um valor diferente de ",a,"\n")
 				escreva("digite novamente: ")
 				leia(b)
 		}
 		escreva("Digite um ultimo valor: ")
 				leia(c)
-		se(b == c){
+		enquanto(b == c){
 				escreva("digite um valor diferente de ",b,"\n")
 				escreva("digite novamente: ")
 				leia(c)
