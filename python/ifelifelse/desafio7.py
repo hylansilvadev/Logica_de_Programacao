@@ -4,7 +4,7 @@
 a = input("Digite um valor lógico: ")
 b = input("digite outro valor lógico: ")
 
-if(a is not b):
+if(a != b):
     print("os valores não são iguais")
 else:
-    print("ios valores são iguais")
+    print("os valores são iguais")

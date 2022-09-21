@@ -34,28 +34,22 @@ programa
 	  	senao se (a < c e c < b)
 	    {
 	    	escreva("A ordem crescente:\n",a,"\n",c,"\n",b)
-	      //escreva("A ordem crescente: %d %d %d\n",a,c,b)
 	    }
 	  	senao se(b < a e a < c)
 	    {
-	    	escreva("A ordem crescente:\n",b,"\n",a,"\n",c)
-	     // escreva("A ordem crescente: %d %d %d\n",b,a,c)
-	    }
+	    	escreva("A ordem crescente:\n",b,"\n",a,"\n",c)	    
+		}
 	  	senao se(b < c e c < a) 
 	    {
 	    	escreva("A ordem crescente:\n",b,"\n",c,"\n",a)
-	     // escreva("A ordem crescente: %d %d %d\n", b,c,a)
 	    }
 	  	senao se(c < a e a < b) 
 	    {
 	    	escreva("A ordem crescente:\n",c,"\n",a,"\n",b)
-	      //escreva("A ordem crescente: %d %d %d\n",c,a,b)
 	    }
-	  senao
-	    {
-	    	escreva("A ordem crescente:\n",c,"\n",b,"\n",a)
-	     // escreva("A ordem crescente: %d %d %d\n",c,b,a)
-	    }
+	  senao{
+	    	escreva("A ordem crescente:\n",c,"\n",b,"\n",a)	    
+		}
 			
 	}
 }

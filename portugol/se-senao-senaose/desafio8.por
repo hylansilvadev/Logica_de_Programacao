@@ -1,5 +1,6 @@
 programa
-{	
+{
+	
 
 	// 8) Elabore um programa que calcule o que deve ser pago por um produto,
 	//    considerando o preço normal de etiqueta e a escolha da condição de pagamento.
@@ -14,7 +15,8 @@ programa
 	// 4 Em três vezes, preço normal de etiqueta mais juros de 5%
 	
 	funcao inicio()
-	{	
+	{
+	
 		real produto_valor = 350.0, calculo
 		inteiro metodo , desconto10 = 10, desconto5 = 5, juros5 = 5
 		
@@ -32,14 +34,32 @@ programa
 		escreva("| 4 |Parcelado 2x Preço da Etiqueta  |","\n")
 		escreva("| 5 |Parcelado 3x +5% de Acéssimo    |","\n")
 		escreva("+====================================+","\n")
-	     escreva("","\n")
-	     escreva("","\n")
+		escreva("","\n")
+		escreva("","\n")
 		escreva("Digite o número do metodo que será usado: ")
 		leia(metodo)
 		escreva("","\n")
 		escreva("","\n")
 		
 		
+se(metodo == 1){
+	calculo = produto_valor - ((produto_valor / 100) * desconto10)
+		escreva(" O valor do produto passou a ser: R$", calculo,"0")
+}senao se(metodo == 2){
+	calculo = produto_valor - ((produto_valor / 100) * desconto10)
+		escreva(" O valor do produto passou a ser: R$", calculo,"0")
+}senao se(metodo == 3){
+	calculo = produto_valor - ((produto_valor / 100) * desconto10)
+		escreva(" O valor do produto passou a ser: R$", calculo,"0")
+}senao se(metodo == 4){
+	escreva("O valor do produto é de: R$",produto_valor,"0 sem juros nem descontos")
+}senao se(metodo == 5){
+	calculo = produto_valor + ((produto_valor / 100) * juros5)
+		escreva(" O valor do produto passou a ser: R$", calculo,"0")
+}senao{
+	escreva("Error: DIGITE UM VALOR DE ACORDO COM OS DA TABELA A CIMA")
+}
+
 		escolha(metodo){
 
 			caso 1:
