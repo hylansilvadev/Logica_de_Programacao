@@ -44,6 +44,6 @@ public class desafio6 {
                 }
             }
         }
-        
+        in.close();
     }
 }
