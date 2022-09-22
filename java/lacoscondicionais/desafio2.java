@@ -1,4 +1,4 @@
-package java.ifelseifelse;
+package java.lacoscondicionais;
 
 import java.util.Scanner;
 

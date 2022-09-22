@@ -49,7 +49,7 @@ se(metodo == 1){
 	calculo = produto_valor - ((produto_valor / 100) * desconto10)
 		escreva(" O valor do produto passou a ser: R$", calculo,"0")
 }senao se(metodo == 3){
-	calculo = produto_valor - ((produto_valor / 100) * desconto10)
+	calculo = produto_valor - ((produto_valor / 100) * desconto5)
 		escreva(" O valor do produto passou a ser: R$", calculo,"0")
 }senao se(metodo == 4){
 	escreva("O valor do produto é de: R$",produto_valor,"0 sem juros nem descontos")
